@@ -33,5 +33,5 @@ def my_form_post():
     #result = {str(key): value for key, value in result.items()}
     return jsonify(result=result)
 
-if __name__ == '__main__':
+def find_answer():
     app.run(debug=True)
